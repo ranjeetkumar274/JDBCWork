@@ -16,14 +16,14 @@ public class ResultsetTypes {
 	
 	public static void main(String[] args) throws Exception {
 		
-		Class.forName("com.mysql.cj.jdbc.Driver");
+		
 		Connection con = DriverManager.getConnection(URL,UNAME,PWD);
 		
 		Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
 		ResultSet rs = stmt.executeQuery(SQL_QUERY);
 		
-		if(rs.absolute(1)) {
-			rs.updateDouble("BOOK_ID", 104);
+		if(rs.absolute(4)) {
+			rs.updateDouble("BOOK_PRICE", 3000.00);
 			rs.updateRow();
 			System.out.print("BOOK_ID : "+rs.getInt("BOOK_ID")+" ");
 			  System.out.print("BOOK_NAME : "+rs.getString("BOOK_NAME")+" ");

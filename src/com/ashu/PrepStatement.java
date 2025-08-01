@@ -13,12 +13,12 @@ public class PrepStatement {
 	
 	public static void main(String[] args) throws Exception{
 		
-		Class.forName("com.mysql.cj.jdbc.Driver");
+		
 		Connection con = DriverManager.getConnection(URL,UNAME,PWD);
 		
 		PreparedStatement pstmt = con.prepareStatement(SQL_QUERY);
 		
-		pstmt.setInt(1, 4);
+		pstmt.setInt(1, 105);
 		pstmt.setString(2, "JQuery");
 		pstmt.setDouble(3, 4500.00);
 		
