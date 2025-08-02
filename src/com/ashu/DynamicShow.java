@@ -36,6 +36,7 @@ public class DynamicShow {
 		
 		
 		con.close();
+		sc.close();
 		
 	}
 }

@@ -36,6 +36,7 @@ public class DynamicInsert {
 		int eRows = pstmt.executeUpdate();
 		System.out.println(eRows);
 		con.close();
+		sc.close();
 		
 	}
 }
