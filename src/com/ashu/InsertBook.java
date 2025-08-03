@@ -1,11 +1,10 @@
  package com.ashu;
-
 import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.Statement; 
 
 public class InsertBook {
-	private static final String INSERT_SQL = "INSERT INTO BOOKS VALUE(103,'Devops',1400)";
+	private static final String INSERT_SQL = "INSERT INTO BOOKS VALUE(108,'SE',1900)";
 	public static void main(String[] args) throws Exception {
 		
 // Step-1 Load Drivers	
