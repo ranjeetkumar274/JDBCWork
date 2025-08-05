@@ -12,7 +12,7 @@ public class InsertBook {
 		System.out.println("Class Found!");
 		
 //	Step-2 Get DB Connection	
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/advjdb","root","@Dune274");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/advjdb","root","-");
 		System.out.println("Connection Established!");
 		
 //	Step-3 Create A Statement

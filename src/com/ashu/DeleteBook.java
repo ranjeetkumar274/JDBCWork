@@ -8,7 +8,7 @@ public class DeleteBook {
 	
 	private static final String URL = "jdbc:mysql://localhost:3306/advjdb";
 	private static final String UNAME = "root";
-	private static final String PWD = "@Dune274";
+	private static final String PWD = "-";
 	private static final String SQL_QUERY = "DELETE FROM BOOKS WHERE BOOK_ID = 103";
 	
 	public static void main(String[] args) throws Exception{

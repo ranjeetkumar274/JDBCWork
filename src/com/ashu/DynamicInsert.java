@@ -9,7 +9,7 @@ public class DynamicInsert {
 	
 	private static final String URL = "jdbc:mysql://localhost:3306/advjdb";
 	private static final String UNAME = "root";
-	private static final String PWD = "@Dune274";
+	private static final String PWD = "-";
 	private static final String SQL = "INSERT INTO BOOKS VALUES(?,?,?)";    //positional parameters
 	
 	

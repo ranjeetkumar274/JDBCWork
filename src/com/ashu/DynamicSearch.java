@@ -10,7 +10,7 @@ public class DynamicSearch {
 
 	private static final String URL = "jdbc:mysql://localhost:3306/advjdb";
 	private static final String UNAME = "root";
-	private static final String PWD = "@Dune274";
+	private static final String PWD = "-";
 
 	public static void main(String[] args) throws Exception {
 
